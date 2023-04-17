@@ -6,8 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki 洛杉矶1SSR, server: t3.freegradely.xyz, port: 20022, type: ssr, cipher: aes-256-cfb, password: dongtaiwang.com, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 🇨🇳 www.dongtaiwang.com+洛杉矶, server: 23.227.38.98, port: 80, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: s1.ssrfree5.xyz, path: /gvbtp, tls: false, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki g_美国, server: 23.227.38.60, port: 80, type: vmess, uuid: 3d8fcf9c-5c1f-4a60-a8a4-6fe7bf149b58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1.v2ray6.xyz}}, udp: true}
+  - {name: 🇨🇳 www.dongtaiwang.com+洛杉矶, server: 23.227.38.110, port: 80, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, plugin: v2ray-plugin, plugin-opts: {mode: "", host: ss1.v2ray16.xyz, path: /kEXnQ, tls: false, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇺🇸 https://github.com/Alvin9999/new-pac/wiki g_美国, server: 23.227.38.156, port: 8880, type: vmess, uuid: 41da23ac-a51a-4683-8cbf-e9929d6127d2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray17.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
